@@ -1,0 +1,3284 @@
+fileFormatVersion: 2
+guid: fa5ce4e9163384c48a9cf1808c525740
+labels:
+- GoblinWarrior
+timeCreated: 1431226242
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm_L_001
+    100002: Arm_L_002
+    100004: Arm_L_003
+    100006: Arm_R_001
+    100008: Arm_R_002
+    100010: Arm_R_003
+    100012: Armature
+    100014: Ear_L_001
+    100016: Ear_L_002
+    100018: Ear_L_003
+    100020: Ear_R_001
+    100022: Ear_R_002
+    100024: Ear_R_003
+    100026: Eye_L
+    100028: Eye_L_001
+    100030: Eye_L_002
+    100032: Eye_R
+    100034: Eye_R_001
+    100036: Eye_R_002
+    100038: FingerIndex_L
+    100040: FingerIndex_L_001
+    100042: FingerIndex_L_002
+    100044: FingerIndex_L_003
+    100046: FingerIndex_R
+    100048: FingerIndex_R_001
+    100050: FingerIndex_R_002
+    100052: FingerIndex_R_003
+    100054: FingerMiddle_L
+    100056: FingerMiddle_L_001
+    100058: FingerMiddle_L_002
+    100060: FingerMiddle_L_003
+    100062: FingerMiddle_R
+    100064: FingerMiddle_R_001
+    100066: FingerMiddle_R_002
+    100068: FingerMiddle_R_003
+    100070: FingerPinky_L
+    100072: FingerPinky_L_001
+    100074: FingerPinky_L_002
+    100076: FingerPinky_L_003
+    100078: FingerPinky_R
+    100080: FingerPinky_R_001
+    100082: FingerPinky_R_002
+    100084: FingerPinky_R_003
+    100086: FingerPointer_L
+    100088: FingerPointer_L_001
+    100090: FingerPointer_L_002
+    100092: FingerPointer_L_003
+    100094: FingerPointer_R
+    100096: FingerPointer_R_001
+    100098: FingerPointer_R_002
+    100100: FingerPointer_R_003
+    100102: FingerThumb_L
+    100104: FingerThumb_L_001
+    100106: FingerThumb_L_002
+    100108: FingerThumb_R
+    100110: FingerThumb_R_001
+    100112: FingerThumb_R_002
+    100114: Foot_L
+    100116: Foot_L_001
+    100118: Foot_R
+    100120: Foot_R_001
+    100122: FootIK_L
+    100124: FootIK_R
+    100126: Goblin
+    100128: GoblinArmor
+    100130: GoblinArmor_001
+    100132: GoblinShield
+    100134: //RootNode
+    100136: HandGrip_R
+    100138: HandGrip_R_001
+    100140: HandIK_L
+    100142: HandIK_R
+    100144: Head
+    100146: JawBottom
+    100148: JawTop
+    100150: Leg_L_002
+    100152: Leg_L_003
+    100154: Leg_L_004
+    100156: Leg_L_005
+    100158: Leg_L_006
+    100160: Leg_R_002
+    100162: Leg_R_003
+    100164: Leg_R_004
+    100166: Leg_R_005
+    100168: Leg_R_006
+    100170: Neck_001
+    100172: Nose
+    100174: Skirt_L
+    100176: Skirt_R
+    100178: start_003
+    100180: Torso
+    100182: Torso_001
+    100184: Torso_002
+    100186: Torso_003
+    100188: Eyes
+    100190: GoblinWord
+    400000: Arm_L_001
+    400002: Arm_L_002
+    400004: Arm_L_003
+    400006: Arm_R_001
+    400008: Arm_R_002
+    400010: Arm_R_003
+    400012: Armature
+    400014: Ear_L_001
+    400016: Ear_L_002
+    400018: Ear_L_003
+    400020: Ear_R_001
+    400022: Ear_R_002
+    400024: Ear_R_003
+    400026: Eye_L
+    400028: Eye_L_001
+    400030: Eye_L_002
+    400032: Eye_R
+    400034: Eye_R_001
+    400036: Eye_R_002
+    400038: FingerIndex_L
+    400040: FingerIndex_L_001
+    400042: FingerIndex_L_002
+    400044: FingerIndex_L_003
+    400046: FingerIndex_R
+    400048: FingerIndex_R_001
+    400050: FingerIndex_R_002
+    400052: FingerIndex_R_003
+    400054: FingerMiddle_L
+    400056: FingerMiddle_L_001
+    400058: FingerMiddle_L_002
+    400060: FingerMiddle_L_003
+    400062: FingerMiddle_R
+    400064: FingerMiddle_R_001
+    400066: FingerMiddle_R_002
+    400068: FingerMiddle_R_003
+    400070: FingerPinky_L
+    400072: FingerPinky_L_001
+    400074: FingerPinky_L_002
+    400076: FingerPinky_L_003
+    400078: FingerPinky_R
+    400080: FingerPinky_R_001
+    400082: FingerPinky_R_002
+    400084: FingerPinky_R_003
+    400086: FingerPointer_L
+    400088: FingerPointer_L_001
+    400090: FingerPointer_L_002
+    400092: FingerPointer_L_003
+    400094: FingerPointer_R
+    400096: FingerPointer_R_001
+    400098: FingerPointer_R_002
+    400100: FingerPointer_R_003
+    400102: FingerThumb_L
+    400104: FingerThumb_L_001
+    400106: FingerThumb_L_002
+    400108: FingerThumb_R
+    400110: FingerThumb_R_001
+    400112: FingerThumb_R_002
+    400114: Foot_L
+    400116: Foot_L_001
+    400118: Foot_R
+    400120: Foot_R_001
+    400122: FootIK_L
+    400124: FootIK_R
+    400126: Goblin
+    400128: GoblinArmor
+    400130: GoblinArmor_001
+    400132: GoblinShield
+    400134: //RootNode
+    400136: HandGrip_R
+    400138: HandGrip_R_001
+    400140: HandIK_L
+    400142: HandIK_R
+    400144: Head
+    400146: JawBottom
+    400148: JawTop
+    400150: Leg_L_002
+    400152: Leg_L_003
+    400154: Leg_L_004
+    400156: Leg_L_005
+    400158: Leg_L_006
+    400160: Leg_R_002
+    400162: Leg_R_003
+    400164: Leg_R_004
+    400166: Leg_R_005
+    400168: Leg_R_006
+    400170: Neck_001
+    400172: Nose
+    400174: Skirt_L
+    400176: Skirt_R
+    400178: start_003
+    400180: Torso
+    400182: Torso_001
+    400184: Torso_002
+    400186: Torso_003
+    400188: Eyes
+    400190: GoblinWord
+    4300000: GoblinShield
+    4300002: GoblinArmor_001
+    4300004: GoblinArmor
+    4300006: Goblin
+    4300008: start_003
+    4300010: GoblinWord
+    4300012: Eyes
+    7400000: Die
+    7400002: Get_Hit_1
+    7400004: Get_Hit_2
+    7400006: Get_Up_From_Sleep
+    7400008: Idle_Alert
+    7400010: Idle_Sleep
+    7400012: Run
+    7400014: Taunt
+    7400016: Taunt_2
+    7400018: Walk
+    7400020: Attack_1
+    7400022: Attack_2
+    7400024: Attack_3
+    7400026: Attack_4
+    9500000: //RootNode
+    13700000: Goblin
+    13700002: GoblinArmor
+    13700004: GoblinArmor_001
+    13700006: GoblinShield
+    13700008: start_003
+    13700010: Eyes
+    13700012: GoblinWord
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_1
+      takeName: Attack_1
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_2
+      takeName: Attack_2
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_3
+      takeName: Attack_3
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack_4
+      takeName: Attack_4
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Get_Hit_1
+      takeName: Get_Hit_1
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Get_Hit_2
+      takeName: Get_Hit_2
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Get_Up_From_Sleep
+      takeName: Get_Up_From_Sleep
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_Alert
+      takeName: Idle_Alert
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_Sleep
+      takeName: Idle_Sleep
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Taunt
+      takeName: Taunt
+      firstFrame: -1
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Taunt_2
+      takeName: Taunt_2
+      firstFrame: -1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootIK_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L
+        weight: 1
+      - path: Armature/FootIK_L/Foot_L/Foot_L_001
+        weight: 1
+      - path: Armature/FootIK_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R
+        weight: 1
+      - path: Armature/FootIK_R/Foot_R/Foot_R_001
+        weight: 1
+      - path: Armature/HandIK_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerIndex_L/FingerIndex_L_001/FingerIndex_L_002/FingerIndex_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerMiddle_L/FingerMiddle_L_001/FingerMiddle_L_002/FingerMiddle_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPinky_L/FingerPinky_L_001/FingerPinky_L_002/FingerPinky_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002
+        weight: 1
+      - path: Armature/HandIK_L/FingerPointer_L/FingerPointer_L_001/FingerPointer_L_002/FingerPointer_L_003
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001
+        weight: 1
+      - path: Armature/HandIK_L/FingerThumb_L/FingerThumb_L_001/FingerThumb_L_002
+        weight: 1
+      - path: Armature/HandIK_L/HandGrip_R_001
+        weight: 1
+      - path: Armature/HandIK_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerIndex_R/FingerIndex_R_001/FingerIndex_R_002/FingerIndex_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerMiddle_R/FingerMiddle_R_001/FingerMiddle_R_002/FingerMiddle_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPinky_R/FingerPinky_R_001/FingerPinky_R_002/FingerPinky_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002
+        weight: 1
+      - path: Armature/HandIK_R/FingerPointer_R/FingerPointer_R_001/FingerPointer_R_002/FingerPointer_R_003
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001
+        weight: 1
+      - path: Armature/HandIK_R/FingerThumb_R/FingerThumb_R_001/FingerThumb_R_002
+        weight: 1
+      - path: Armature/HandIK_R/HandGrip_R
+        weight: 1
+      - path: Armature/Torso
+        weight: 1
+      - path: Armature/Torso/Leg_L_002
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003
+        weight: 1
+      - path: Armature/Torso/Leg_L_002/Leg_L_003/Leg_L_004
+        weight: 1
+      - path: Armature/Torso/Leg_R_002
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003
+        weight: 1
+      - path: Armature/Torso/Leg_R_002/Leg_R_003/Leg_R_004
+        weight: 1
+      - path: Armature/Torso/Torso_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_L_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_005
+        weight: 1
+      - path: Armature/Torso/Torso_001/Leg_R_006
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Skirt_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_L_001/Arm_L_003/Arm_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Arm_R_001/Arm_R_003/Arm_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_L_001/Ear_L_003/Ear_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Ear_R_001/Ear_R_003/Ear_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_L_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_001
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Eye_R_002
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawBottom
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/JawTop
+        weight: 1
+      - path: Armature/Torso/Torso_001/Torso_002/Torso_003/Neck_001/Head/Nose
+        weight: 1
+      - path: Goblin
+        weight: 1
+      - path: GoblinArmor
+        weight: 1
+      - path: GoblinArmor_001
+        weight: 1
+      - path: GoblinShield
+        weight: 1
+      - path: start_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
