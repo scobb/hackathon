@@ -1,0 +1,68 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-8376
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=1934 outsize=930 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1260 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1260 outsize=1168 kw= ok=1
+Cmd: preprocess
+  insize=683 outsize=683 ok=1
+Cmd: preprocess
+  insize=514 outsize=514 ok=1
+Cmd: preprocess
+  insize=1846 outsize=1284 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (42): 'c': local variables cannot have semantics
+  api=4 type=0 insize=5559 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=838 outsize=838 ok=1
+Cmd: preprocess
+  insize=2407 outsize=853 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1131 outsize=1493 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1131 outsize=754 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1028 outsize=1469 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1028 outsize=754 kw= ok=1
+Cmd: preprocess
+  insize=2002 outsize=931 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1322 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1322 outsize=1136 kw= ok=1
+Cmd: preprocess
+  insize=763 outsize=763 ok=1
+Cmd: preprocess
+  insize=569 outsize=569 ok=1
+Cmd: preprocess
+  insize=422 outsize=422 ok=1
+Cmd: preprocess
+  insize=558 outsize=558 ok=1
+Cmd: preprocess
+  insize=6178 outsize=3522 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (64): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (81): implicit truncation of vector type
+  api=4 type=0 insize=7015 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1754 outsize=929 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1085 outsize=1388 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1085 outsize=1047 kw= ok=1
+Cmd: preprocess
+  insize=1294 outsize=492 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1104 outsize=1193 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1104 outsize=1363 kw= ok=1
+Cmd: preprocess
+  insize=1772 outsize=993 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1041 outsize=1274 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1041 outsize=990 kw= ok=1
